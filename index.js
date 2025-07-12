@@ -12,10 +12,12 @@ const { myBookRouter } = require("./routes/myBook.route");
 const app = express();
 
 // Middleware
-app.use(cors({
-  origin: "https://mini-project-client-orpin.vercel.app",
-  credentials: true,
-}));
+app.use(
+  cors({
+    origin: "https://mini-project-client-topaz.vercel.app",
+    credentials: true,
+  })
+);
 app.use(express.json());
 app.use(cookieParser());
 
