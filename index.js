@@ -14,7 +14,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "https://mini-project-client-ajayaharas-projects.vercel.app/",
+    origin: "https://mini-project-client-ajayaharas-projects.vercel.app",
     credentials: true,
   })
 );
